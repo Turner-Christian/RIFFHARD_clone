@@ -52,7 +52,7 @@ body button:hover {
     line-height: 26px;
 }
 
-.first_row_wrapper {
+#first_row_wrapper {
     padding: 10px;
 }
 
@@ -96,6 +96,7 @@ video {
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
+    margin-bottom: 4px;
 }
 
 /* FIRST ROW */
@@ -106,7 +107,7 @@ video {
     padding: 0px 10px 10px 10px;
 }
 
-.second_row_wrapper {
+#second_row_wrapper {
     padding: 10px;
 }
 
@@ -160,7 +161,7 @@ video {
     color: white;
 }
 
-.third_row_wrapper {
+#third_row_wrapper {
     padding: 10px;
 }
 
@@ -342,4 +343,74 @@ footer a {
 
 .urm {
     margin-bottom: 2rem;
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #first_row_content {
+        display: flex;
+    }
+
+    #iframe-div {
+        width: 61.25%;
+    }
+
+    #first_row_content p {
+        width: 38.75%;
+    }
+
+    .join-button-text p {
+        margin-bottom: 2px;
+    }
+
+    #second_row {
+        display: flex;
+        justify-content: center;
+    }
+
+    #second_row_wrapper {
+        max-width: 800px;
+    }
+
+    #third_row {
+        display: flex;
+        justify-content: center;
+    }
+
+    #third_row_wrapper {
+        max-width: 1140px;
+    }
+
+    #livestream_img {
+        max-width: 800px;
+    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #first_row {
+        display: flex;
+        justify-content: center;
+    }
+
+    #first_row_wrapper {
+        max-width: 1140px;
+    }
+
+    
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
 }
